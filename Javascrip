@@ -1,1 +1,27 @@
+Crear una página web con JavaScript implica combinarlo con HTML y CSS, ya que JavaScript por sí solo no puede construir una página web completa.
+#Estructura Html
+El HTML es la base de tu página. Definir la estructura
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página con JavaScript</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #content {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido a mi página</h1>
+    <div id="content">Aquí aparecerá contenido dinámico.</div>
+    <button id="changeText">Cambiar texto</button>
+    <script src="app.js"></script>
+</body>
+</html>
 
